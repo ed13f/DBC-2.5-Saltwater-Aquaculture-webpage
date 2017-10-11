@@ -238,11 +238,12 @@ h1 {
       /*text-align:center;*/
       width:19%;
       height:8%;
-      padding:2%;
+      padding:0%;
+      margin:0%;
       border-radius:10px;
       box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
     }
-  .project-header {font-size: 1em;
+  .project-header {display:none;
 
     }
   .language_icon {
@@ -252,9 +253,20 @@ h1 {
   }
  .project-table{
   width:98%;
-  border-spacing: 1% 1%;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
  }
+ .assignment_img {
+    object-fit: fill;
+    border-radius:10px;
+    margin:0%;
+    padding:0%;
+     }
+ .contact-info {
+  font-size: 1em;
+  text-align: center;
 
+ }
   }
 }
 
