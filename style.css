@@ -5,6 +5,11 @@
   margin-bottom:3.5%;
 }
 
+.project-text{
+  font-size: 1em;
+  margin:2%;
+}
+
 
 .header {
   background-image: url("https://az616578.vo.msecnd.net/files/2016/03/08/6359299800052863581789099276_travel-pin-map.jpg");
@@ -199,6 +204,7 @@ body {
   border: 1px solid black;
   /*text-align:center;*/
   width:30%;
+  height:20%;
   padding:10px;
   border-radius:15px;
   box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
@@ -221,4 +227,19 @@ h1 {
 .project-container:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 520px) {
+    .p-text{font-size: 0.75em;}
+    #skills_table{font-size: 0.75em;}
+    .project-text{font-size: 0.5em;}
+    .project-container{background-color: #b3b3b3;
+  border: 1px solid black;
+  /*text-align:center;*/
+  width:10%;
+  height:8%;
+  padding:2%;
+  border-radius:2%;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);}
+}
+
 
