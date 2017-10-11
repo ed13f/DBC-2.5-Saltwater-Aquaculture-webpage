@@ -194,7 +194,7 @@ body {
   width:90%;
 }
 
-#project-table {
+.project-table {
   width:90%;
   border-collapse: separate;
   border-spacing: 20px 20px;
@@ -240,7 +240,8 @@ h1 {
       height:8%;
       padding:2%;
       border-radius:10px;
-      box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);}
+      box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+    }
   .project-header {font-size: 1em;
 
     }
@@ -249,9 +250,11 @@ h1 {
     width:100%;
     padding:15%;
   }
- #project-table{
+ .project-table{
   width:98%;
+  border-spacing: 1% 1%;
  }
+
   }
 }
 
