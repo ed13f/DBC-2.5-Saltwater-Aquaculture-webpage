@@ -1,0 +1,222 @@
+.p-text {
+  font-size: 140%;
+  padding-left:12%;
+  padding-right:12%;
+  margin-bottom:3.5%;
+}
+
+
+.header {
+  background-image: url("https://az616578.vo.msecnd.net/files/2016/03/08/6359299800052863581789099276_travel-pin-map.jpg");
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+  height:100%;
+  width:100%;
+}
+
+.bulb_format {
+  width: 100%;
+  height:30%;
+  max-height: 520px;
+  margin-top:45px;
+}
+
+.up {
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+.icon_center {
+height:25%;
+width:25%;
+margin:auto;
+border-radius: 18%;
+
+}
+
+.slide_image {
+  width:100%;
+  max-height:500px;
+  max-width:900px;
+  margin:auto;
+}
+
+#logo {
+ max-height:100%;
+ max-width:100%;
+ padding: 0px;
+ margin: 0px;
+}
+
+.nav_spacing {
+  padding: 0px;
+  margin: 0px;
+}
+
+.zero_margin {
+  margin: 0px;
+}
+
+.round_corners {
+  border-radius: 18px;
+}
+
+.circle_image {
+  border-radius: 60%;
+
+}
+
+.contact {
+  background-color: #999999;
+  text-align: center;
+  width:85%;
+  margin: 3% 6.5% 0% 6.5%;
+  padding: 2% 2% 1% 2%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+}
+
+body {
+  background-color:#666666
+}
+
+#bio {
+  background-color:#999999;
+  border-radius:10px;
+  border-width: 5px;
+  width:85%;
+  margin: 3% 6.5% 5% 6.5%;
+  padding: 2% 2% 3% 2%;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+}
+#skills {
+  background-color:#999999;
+  border-radius:10px;
+  border-width: 5px;
+  margin: 3% 6.5% 5% 6.5%;
+  width:85%;
+  padding: 2% 2% 3% 2%;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+}
+
+#projects {
+  background-color: #999999;
+  text-align: center;
+  border-radius:10px;
+  width:85%;
+  margin: 3% 6.5% 5% 6.5%;
+  padding: 2% 2% 3% 2%;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+
+}
+
+.slide_image {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#project_title {
+  text-align: left;
+  color:#cccccc;
+}
+
+#headshot {
+  border-radius:15px;
+  height:70%;
+  width:50%;
+  max-height: 250px;
+  max-width: 250px;
+  float: right;
+  margin-right: 5%;
+  margin-top:2%;
+  margin-left:2%;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+}
+
+#left_icon {
+  float: right;
+}
+#right_icon {
+  float: left;
+}
+
+.contact-info {
+  font-size: 140%;
+  width:90%;
+  padding:3%;
+  text-align:center;
+}
+
+#language_icon {
+  max-width: 150px;
+  width:100%;
+  max-height: 120px;
+  height:100%;
+  padding-right:15%;
+  padding-bottom:15%;
+  padding-left:15%;
+}
+#css {
+  max-width: 150px;
+  width:100%;
+  max-height: 120px;
+  height:100%;
+  padding-left:15%;
+  padding-right:15%;
+  padding-bottom:8%;
+  margin-bottom:5%;
+}
+
+#html {
+  max-width: 150px;
+  width:100%;
+  max-height: 120px;
+  height:100%;
+  padding-bottom:10%;
+}
+
+
+#icon_section{
+  /*margin:10%;*/
+}
+
+#skills_table {
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 140%;
+  width:90%;
+}
+
+#project-table {
+  width:90%;
+  border-collapse: separate;
+  border-spacing: 20px 20px;
+}
+.project-container {
+  background-color: #b3b3b3;
+  border: 1px solid black;
+  /*text-align:center;*/
+  width:30%;
+  padding:10px;
+  border-radius:15px;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
+}
+.assignment_img {
+  width:100%;
+  height:10%;
+  border-radius:10px;
+}
+
+td {
+  text-align: left;
+  width:40%;
+}
+
+h1 {
+  margin-top:0%;
+}
+
+.project-container:hover { opacity: 0.5; }
+

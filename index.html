@@ -1,81 +1,145 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Saltwater Aquaculture</title>
-  <link rel="stylesheet" href="aqua_style.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Chivo|Lobster|Michroma|Passion+One" rel="stylesheet">
+  <title>Rico De Santis</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </head>
-<body>
-<h1>Saltwater Aquaculture</h1>
-<div id="menu-bar">
-  <nav>
-    <ul id="in-line">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="coral.html">Corals</a></li>
-    </ul>
-  </nav>
+<body data-spy="scroll" data-target=".navbar" data-offset="50"style="background-color:#302f2f;">
+<nav id="zero_margin" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="nav_spacing">
+    <div class="navbar_spacing">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a id="logo"class="container-fluid navbar-brand" href="#"><a class="navbar-brand container-fluid" href="index.html" id="logo"><img id="logo" class="container-fluid" src="RD_logo_darkgrey.png" alt="RD logo"></a></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Bio</a></li>
+        <li><a href="#section3">Skills</a></li>
+        <li><a href="#section4">Projects</a></li>
+        <li><a href="#section5">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="section1">
+  <img class="bulb_format" src="RDS_bulbs.png" alt="light bulbs">
 </div>
-<main>
- <h2>What is Saltwater Aquaculture?</h2>
- <p>Aquaculture involves cultivating freshwater and saltwater populations under controlled conditions, and can be contrasted with commercial fishing, which is the harvesting of wild fish.</p>
- <img src="http://natureaquariums.org/wp-content/uploads/2011/05/Coral-Frags.jpg" alt="coral frags">
- <h2>The Saltwater Aquaculture Hobby</h2>
- <p>Growing up in South Florida, the ocean is a big part of your life, for gosh sake if covers 3 sides of us. As a young boy, ocean conservation was a topic I found extremely interesting as a kid and as the years went on I developed that interest into a hobby. At the age of 14, I bought my first saltwater aquarium with money that I have been saving for years. From this point my hobby really turned into a passion.I felt like a scientist, regulating the water chemistry and temperature to ensure that my fish were happy and healthy. But my hobby did not end there. I began buying live coral, watching them grow and propagating them to produce new coral. It came to the point that I collected so many coral that had grown so much I needed to start selling them to other hobbyists. I profited enough money to cover the entire cost of my original corals. By sharing my corals with other hobbyists, it lowers the demand for wild caught corals and therefore helps conserve wild populations.</p>
- <img src="coral_aquaculture.jpg" alt="coral farm">
- <h2>Steps to coral Propogation</h2>
- <p>
-  <ol class="italic">
-   <li>Grow the coral in a healthy artificial environment.</li>
-   <li>Remove pieces of the coral from the large piece of coral.</li>
-   <li>Use adhesive to glue small pieces of coral the a rock to ensure a stable foundation.</li>
-   <li>Place new coral frag back in the aquarium in a spot that has good current and is well lit to ensure the coral begins growing and attaching itself to the rock.</li>
-   <li> Finally, watch your coral grown!</li>
-  </ol>
- </p>
- <h2>Coral Species and Hardiness to survive coral Propagation.</h2>
- <p>
-     <table border="1" class="spacing">
-      <tr>
-       <th colspan="3">Coral Hardiness</th>
-      </tr>
-      <tr>
-        <th>Name</th>
-        <th>Family</th>
-        <th>Hardiness</th>
-      </tr>
-      <tr>
-        <td>Brain Coral</td>
-        <td>LPS</td>
-        <td>Moderate</td>
-      </tr>
-      <tr>
-        <td>Staghorn Coral</td>
-        <td>SPS</td>
-        <td>Fragile</td>
-      </tr>
-      <tr>
-        <td>Button Zoo Coral</td>
-        <td>Polyp</td>
-        <td>Extremely</td>
-      </tr>
-     </table>
-     <form class="spacing" name="coral hardiness" action="https://httpbin.org/post" method="post">
-        <div>
-          <label>How hardy is a Staghorn Coral?</label>
-          <select>
-            <option value="blank">Choose One</option>
-            <option value="moderate">Moderate</option>
-            <option value="fragile">Fragile</option>
-            <option value="extremely">Extremely</option>
-          </select>
-        </div>
-      <button type="submit">Submit</button>
-     </form>
- </p>
- <p class="italic">For other Coral Propagation Tips click <a href="http://www.advancedaquarist.com/2003/12/tips">here</a>. This is a good website because it has the navigation bar at the top of the page that makes it easy to navigate through the webpage and find what topic you are looking for. The content is formatted in a manner that makes it easy to see what topic is being discussed with a header over the paragraphs. This website is helpful for me because it has picture instructions. This is helpful because I am more of a visual learner. I did not find any bad things about this article.
- </p>
-</main>
+<div id="section2">
+  <div id="bio">
+      <h1>Bio</h1>
+      <div class="p-text">
+      <p>My name is Rico and I am an ambitious Junior Web Developer that is eager to jump into the Tech industry.<img id='headshot' src="headshot.png" alt='headshot'> With a naturally curious personality that is driven by a passion to thinking critically through problems, I am excited to start my career as a full stack web developer. Currently seeking an opportunity where I can combine my knowledge of various programming language and team oriented work ethic to advance technology successes. With an undergrad degree in economics, as well as past analytics experience, I take a methodical and detail oriented approach to object oriented programming. Upon completion of Dev Bootcamp immersive web development course in October of 2017, I belive I have gained the knowledge to be competetive in in the Technology job market. Dev Bootcamp core curriculum revolves around object oriented programming in the industries most popularlanguages and dynamic team work flow.
+      </p>
+     </div>
+  </div>
+</div>
+<div id="section3">
+  <div id="skills">
+    <h1>Skills</h1>
+    <div>
+      <table id="skills_table"
+        <tr>
+          <td valign="top"><ul>
+            <li>HTML</li>
+            <li>CSS style sheets including bootstrap</li>
+            <li>Javascript</li>
+            <li>Ruby on Rails</li>
+            <li>SQL Database structure</li>
+            <li>Http Protocol & Ajax Requests</li>
+            <li>Git Workflow</li>
+
+          </ul></td>
+          <td valign="top"><table id="icon_section">
+            <tr>
+            <td><img id="language_icon" src="http://www.steemimg.com/images/2016/11/19/15996662264_4088cd1e53_o8e140.png" alt='JS'></td>
+            <td><img id="language_icon" src="http://coolspotters.com/files/photos/26546/ruby-on-rails-profile.png" alt='rails'></td>
+            </tr>
+            <tr>
+            <td><img id="css" src="http://w3widgets.com/responsive-slider/img/css3.png" alt='css'></td>
+            <td><img id="html" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt='html'></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div id="section4">
+  <div id="projects">
+    <h1 style="text-align:left;">Projects</h1>
+    <h3 style="text-align:left;">Bootcamp Assignments</h3>
+      <table id="project-table" align="center">
+        <tr>
+          <td class="project-container">
+              <h3>Mico Manage</h3>
+              <img class="assignment_img" src="task_manage.png" alt='Task manager'>
+              <p>Micro Manage is a program designed to keep track of the tasks that need attention today and in the future.</p>
+          </td>
+            <td class="project-container">
+            <h3>Ajax News</h3>
+            <img class="assignment_img" src="Ajax-news.png" alt='news'>
+            <p>This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
+          </td>
+          <td class="project-container">
+              <h3>Broccoli Blog</h3>
+              <img class="assignment_img" src="blog.png" alt='blog'>
+              <p>This blog is a user secure form for writers to express different ways they enjoy their greens.</p>
+          </td>
+        </tr>
+      </table>
+      <h3 style="text-align:left;">Team Projects</h3>
+        <table id="project-table" align="center">
+          <tr>
+          <td class="project-container">
+            <h3>Pan Skillet Pot</h3>
+            <img class="assignment_img" src="Ajax-news.png" alt='news'>
+            <p>This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
+          </td>
+          <td class="project-container">
+            <h3>SplittR</h3>
+            <img class="assignment_img" src="Ajax-news.png" alt='news'>
+            <p>This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
+          </td>
+          <td class="project-container">
+            <h3>Ajax News</h3>
+            <img class="assignment_img" src="Ajax-news.png" alt='news'>
+            <p>This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
+          </td>
+        </tr>
+      </table>
+  </div>
+</div>
+<div id="section5" class="contact">
+  <div>
+    <div class="container">
+      <h1 style="text-align:left;">Contact</h1>
+
+
+      <h4 class="contact-info">ricodesantis@gmail.com / (561) 315-3658 / Brooklyn, New York</h4>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <a href="https://www.linkedin.com/in/enricodesantis"><img src="Social_media_icons/linkedin_ed.png" alt="linkedin" id='left_icon' class="icon_center"></a>
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <a href="https://github.com/ed13f"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-512.png" alt="github" class="icon_center circle_image"></a>
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <a href="https://www.instagram.com/rico_desantis/"><img src="Social_media_icons/insta_ed.png" alt="instagram" id='right_icon' class="icon_center"></a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
-<footer>This Website was generated by Rico De Santis.</footer>
 </html>
