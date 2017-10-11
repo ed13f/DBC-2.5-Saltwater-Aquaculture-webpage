@@ -154,7 +154,7 @@ body {
   text-align:center;
 }
 
-#language_icon {
+.language_icon {
   max-width: 150px;
   width:100%;
   max-height: 120px;
@@ -229,17 +229,30 @@ h1 {
 }
 
 @media (max-width: 740px) {
-    .p-text{font-size: 0.75em;}
-    #skills_table{font-size: 0.75em;}
-    .project-text{font-size: 0.5em;}
-    .project-container{background-color: #b3b3b3;
-  border: 1px solid black;
-  /*text-align:center;*/
-  width:10%;
-  height:8%;
-  padding:2%;
-  border-radius:5%;
-  box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);}
+    .p-text{font-size: 0.9em;}
+    #skills_table{font-size: 0.9em;}
+    .project-text{display: none;}
+    .project-container{
+      background-color: #b3b3b3;
+      border: 1px solid black;
+      /*text-align:center;*/
+      width:19%;
+      height:8%;
+      padding:2%;
+      border-radius:10px;
+      box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);}
+  .project-header {font-size: 1em;
+
+    }
+  .language_icon {
+    height:20%;
+    width:100%;
+    padding:15%;
+  }
+ #project-table{
+  width:98%;
+ }
+  }
 }
 
 
