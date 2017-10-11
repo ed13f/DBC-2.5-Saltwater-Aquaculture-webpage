@@ -228,7 +228,7 @@ h1 {
   opacity: 0.5;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 740px) {
     .p-text{font-size: 0.75em;}
     #skills_table{font-size: 0.75em;}
     .project-text{font-size: 0.5em;}
@@ -238,7 +238,7 @@ h1 {
   width:10%;
   height:8%;
   padding:2%;
-  border-radius:2%;
+  border-radius:5%;
   box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);}
 }
 
