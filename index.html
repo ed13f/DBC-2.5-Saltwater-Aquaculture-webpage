@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Fjalla+One|Lora" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
@@ -19,15 +20,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
      </button>
-      <a id="logo"class="container-fluid navbar-brand" href="#"><a class="navbar-brand container-fluid" href="index.html" id="logo"><img id="logo" class="container-fluid" src="RD_logo_darkgrey.png" alt="RD logo"></a></a>
+      <a class="navbar-brand container-fluid" href="#section1" id="logo"><img id="logo" class="container-fluid" src="RD_logo_darkgrey.png" alt="RD logo"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Bio</a></li>
+        <li><a href="#section2">Projects</a></li>
         <li><a href="#section3">Skills</a></li>
-        <li><a href="#section4">Projects</a></li>
-        <li><a href="#section5">Contact</a></li>
+        <li><a href="#section4">About</a></li>
       </ul>
     </div>
   </div>
@@ -36,32 +36,87 @@
   <img class="bulb_format" src="RDS_bulbs.png" alt="light bulbs">
 </div>
 <div id="section2" class="scroll-spacing">
-  <div id="bio">
-      <h1 class="section-header">Bio</h1>
-      <div class="p-text">
-      <p>My name is Rico and I am an ambitious Junior Web Developer that is eager to jump into the Tech industry.<img id='headshot' src="headshot.png" alt='headshot'> With a naturally curious personality that is driven by a passion to thinking critically through problems, I am excited to start my career as a full stack web developer. Currently seeking an opportunity where I can combine my knowledge of various programming language and team oriented work ethic. With an undergrad degree in economics, as well as past analytics experience, I take a methodical and detail oriented approach to object oriented programming. Upon completion of Dev Bootcamp immersive web development course in October of 2017, I have gained the knowledge to be competetive in the Tech Industry.
-      </p>
-     </div>
+  <div id="projects">
+    <h1 class="section-header" style="text-align:left;">Projects</h1>
+    <h3 class="category-header">Bootcamp Assignments</h3>
+    <div class="row project-spacing">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 hover">
+        <a class="anchor" href="https://github.com/ed13f/Micro-Manage">
+          <div class="assignment-border">
+            <h3 class="project-header">Mico Manage</h3>
+            <img class="assignment_img" src="Micro-Manage.png" alt='Task manager'>
+            <p class="project-text">Micro Manage is an application designed to keep a prioritized list the tasks that need your attention.</p>
+          </div>
+        </a>
+      </div>
+      <div id="ajax" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a class="anchor" href="https://github.com/ed13f/Ajax-News">
+          <div class="assignment-border">
+            <h3 class="project-header">Ajax News</h3>
+            <img class="assignment_img" src="Ajax-news.png" alt='news'>
+            <p class="project-text">This single page news application uses Ajax requests to update only specific targeted elements.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a class="anchor" href="https://github.com/ed13f/Broccoli-Blog">
+          <div class="assignment-border">
+            <h3 class="project-header">Broccoli Blog</h3>
+            <img class="assignment_img" src="blog.png" alt='blog'>
+            <p class="project-text">This blog is a user secure platform for writers to express different ways they enjoy their greens.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <h3 class="category-header">Team Projects</h3>
+    <div class="row project-spacing">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a class="anchor" href="https://github.com/ed13f/Pan-Skillet-and-Pot">
+          <div class="assignment-border">
+            <h3 class="project-header">Pan Skillet Pot</h3>
+            <img class="assignment_img" src="pan-skillet-pot.png" alt='news'>
+            <p class="project-text">This application is designed for a restaurant that crowd sources its recipes, allowing users to add and rate recipes.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a class="anchor" href="https://github.com/SplittR/splittr-backend">
+          <div class="assignment-border">
+            <h3 class="project-header">SplittR</h3>
+            <img class="assignment_img" src="splittr1.png" alt='news'>
+            <p class="project-text">SplittR is a mobile application that scans merchant recipes and returns each of the group memebers share of the bill.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <a class="anchor" href="url">
+          <div id="three" class="assignment-border">
+            <h3 class="project-header">Q'd Up</h3>
+            <img class="assignment_img" src="Qd-app.png" alt='Qd app'>
+            <p class="project-text">Q'd Up is a sigle page application that utilizes the speed of ajax requests organizes your parties karaoke line-up.  </p>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 <div id="section3" class="scroll-spacing">
   <div id="skills">
   <h1 class="section-header">Skills</h1>
     <div id="skills_table" class="row">
-  <div class="col-xs-6 col-lg-6 list-skills">
+  <div class="col-xs-6 col-lg-5 list-skills">
     <ul>
       <li>HTML</li>
-      <li>CSS style sheets</li>
-      <li>bootstrap</li>
-      <li>Javascript</li>
+      <li>CSS Style, Bootstrap</li>
+      <li>Javascript, jQuery</li>
+      <li>Ajax Requests</li>
       <li>Ruby on Rails</li>
       <li>SQL Database</li>
       <li>Http Protocol</li>
-      <li>Ajax Requests</li>
       <li>Git Workflow</li>
     </ul>
   </div>
-  <div class="col-xs-6 col-lg-6 icon-center">
+  <div class="col-xs-6 col-lg-7 icon-center">
     <div class="row">
       <div class="col-xs-6 col-lg-6 icon-center">
         <img class="language_icon" src="http://www.steemimg.com/images/2016/11/19/15996662264_4088cd1e53_o8e140.png" alt='JS'>
@@ -82,83 +137,19 @@
   </div>
 </div>
 <div id="section4" class="scroll-spacing">
-  <div id="projects">
-    <h1 class="section-header" style="text-align:left;">Projects</h1>
-    <h3 class="category-header">Bootcamp Assignments</h3>
-    <div class="row project-spacing">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 hover">
-        <a class="anchor" href="https://github.com/ed13f/Micro-Manage">
-          <div class="assignment-border">
-            <h3 class="project-header">Mico Manage</h3>
-            <img class="assignment_img" src="Micro-Manage.png" alt='Task manager'>
-            <p class="project-text">Micro Manage is a program designed to keep track of the tasks that need attention today and in the future.</p>
-          </div>
-        </a>
-      </div>
-      <div id="ajax" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a class="anchor" href="https://github.com/ed13f/Ajax-News">
-          <div class="assignment-border">
-            <h3 class="project-header">Ajax News</h3>
-            <img class="assignment_img" src="Ajax-news.png" alt='news'>
-            <p class="project-text">This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a class="anchor" href="https://github.com/ed13f/Broccoli-Blog">
-          <div class="assignment-border">
-            <h3 class="project-header">Broccoli Blog</h3>
-            <img class="assignment_img" src="blog.png" alt='blog'>
-            <p class="project-text">This blog is a user secure form for writers to express different ways they enjoy their greens.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <h3 class="category-header">Team Projects</h3>
-    <div class="row project-spacing">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a class="anchor" href="https://github.com/ed13f/Pan-Skillet-and-Pot">
-          <div class="assignment-border">
-            <h3 class="project-header">Pan Skillet Pot</h3>
-            <img class="assignment_img" src="pan-skillet-pot.png" alt='news'>
-            <p class="project-text">This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a class="anchor" href="https://github.com/SplittR/splittr-backend">
-          <div class="assignment-border">
-            <h3 class="project-header">SplittR</h3>
-            <img class="assignment_img" src="pan-skillet-pot.png" alt='news'>
-            <p class="project-text">This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a class="anchor" href="url">
-          <div id="three" class="assignment-border">
-            <h3 class="project-header">SplittR</h3>
-            <img class="assignment_img" src="pan-skillet-pot.png" alt='news'>
-            <p class="project-text">This single page news application uses Asynchronous HTTP requests to update targeted elements.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="section5" class="contact">
-  <div>
-    <div class="container">
-      <h1 class="section-header" style="text-align:left;">Contact</h1>
-
-
-      <h4 class="contact-info">ricodesantis@gmail.com / (561) 315-3658 / Brooklyn, New York</h4>
-    </div>
-    <div class="row">
+  <div id="bio">
+      <h1 class="section-header">About</h1>
+      <img id='headshot' src="headshot.png" alt='headshot'>
+      <div class="p-text">
+      <p>My name is Rico. I'm a Junior Web Developer that is eager to jump into the tech industry. With my naturally curious personality that is driven by a passion to thinking critically through problems, I am excited to start my career as a full stack web developer. I'm currently seeking an opportunity that allows me to combine my programming knowledge with a team oriented work environment. Upon completion of Dev Bootcamp immersive web development course in October of 2017, I beleive I have gained the skills to be competitive in the tech industry.
+      </p>
+     </div>
+     <h4 class="contact-info">ricodesantis@gmail.com / (561) 315-3658 / Brooklyn, New York</h4>
+     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <a href="https://www.linkedin.com/in/enricodesantis"><img src="Social_media_icons/linkedin_ed.png" alt="linkedin" id='left_icon' class="icon_center"></a>
       </div>
-      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 img-center">
         <a href="https://github.com/ed13f"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-512.png" alt="github" class="icon_center"></a>
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
