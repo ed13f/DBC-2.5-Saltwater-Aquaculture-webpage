@@ -1,5 +1,5 @@
  .anchor {
-  color:#333333 !important;
+  /*color:#333333 !important;*/
   text-decoration: none !important;
   }
   .assignment-border:hover{
@@ -82,8 +82,8 @@ border-radius: 18%;
 }
 
 .contact {
-  background-color: #999999;
-  text-align: center;
+  background:radial-gradient(#a6a6a6, #787674);
+  font-family: 'Cabin', sans-serif;
   width:85%;
   margin: 3% 6.5% 0% 6.5%;
   padding: 2% 2% 1% 2%;
@@ -97,8 +97,10 @@ body {
 }
 
 #bio {
-  background-color:#999999;
+  background:radial-gradient(#a6a6a6, #787674);
   border-radius:10px;
+  font-size:1.2em;
+  font-family: 'Cabin', sans-serif;
   border-width: 5px;
   width:85%;
   margin: 0% 6.5% 0% 6.5%;
@@ -106,8 +108,10 @@ body {
   box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
 }
 #skills {
-  background-color:#999999;
+  background:radial-gradient(#a6a6a6, #787674);
   border-radius:10px;
+  font-size:1.2em;
+  font-family: 'Cabin', sans-serif;
   border-width: 5px;
   margin: 0% 6.5% 0% 6.5%;
   width:85%;
@@ -116,8 +120,10 @@ body {
 }
 
 #projects {
-  background-color: #999999;
+  background:radial-gradient(#a6a6a6, #787674);
   border-radius:10px;
+  font-size:1.2em;
+  font-family: 'Cabin', sans-serif;
   width:85%;
   margin: 0% 6.5% 0% 6.5%;
   padding: 2% 2% 3% 2%;
@@ -141,10 +147,10 @@ body {
   width:50%;
   max-height: 250px;
   max-width: 250px;
-  float: right;
-  margin-right: 5%;
-  margin-top:2%;
-  margin-left:2%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:3%;
   box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
 }
 
@@ -154,13 +160,17 @@ body {
 #right_icon {
   float: left;
 }
+.img-center{
+  text-align:center;
+}
 
 .contact-info {
-  font-size: 1.4em;
+  font-size: 1.5em !important;
+  padding:auto;
+  margin:auto;
+  text-align:center;
   width:90%;
   padding:3%;
-  text-align:center;
-  margin:auto;
 }
 
 .language_icon {
@@ -221,6 +231,7 @@ li {
 .assignment_img {
   width:100%;
   height:10%;
+  max-height: 140px;
   border-radius:10px;
 }
 
@@ -249,6 +260,8 @@ background-color: #b3b3b3;
   padding:10px;
   border-radius:15px;
   margin: 2%;
+  height:100%;
+  color:#333;
   box-shadow: 5px 5px 24px rgba(0, 0, 0, .75);
 }
 
@@ -289,15 +302,12 @@ background-color: #b3b3b3;
   border-spacing: 10px 10px;
  }
  .assignment_img {
-    object-fit: fill;
+    /*object-fit: fill;*/
     border-radius:10px;
+    max-height:100px;
     margin:0%;
     padding:0%;
      }
- .contact-info {
-  font-size: 0.9em;
-  text-align: center;
- }
  .section-header {
   font-size: 1.5em;
  }
